@@ -17,6 +17,7 @@ server.tool("add",
     })
 );
 
+// weather tool
 server.tool(
     "fetch-weather",
     { city: z.string() },
